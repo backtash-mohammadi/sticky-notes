@@ -14,6 +14,7 @@
             const centerY = (window.innerHeight - card.offsetHeight) / 2;
             card.style.left = centerX + 'px';
             card.style.top = centerY + 'px';
+            card.textContent = "Use right-click to create new card"
         };
 
         // Start drag on mousedown
