@@ -38,7 +38,6 @@
           startX = e.clientX;
           startY = e.clientY;
 
-          // You need to reference the card element from main or pass it in some way
           card.style.top = (card.offsetTop - newY) + 'px';
           card.style.left = (card.offsetLeft - newX) + 'px';
       }
